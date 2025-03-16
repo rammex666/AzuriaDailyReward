@@ -52,17 +52,15 @@ public class SQliteManager {
             Statement s = connection.createStatement();
 
             // Table for heads
-            String headsData = "CREATE TABLE IF NOT EXISTS head_data (" +
+            String cooldowns = "CREATE TABLE IF NOT EXISTS cooldowns (" +
                     "`id` INTEGER PRIMARY KEY AUTOINCREMENT," +
-                    "`head_name` TEXT," +
-                    "`head_id` TEXT," +
-                    "`head_location` TEXT," +
-                    "`head_reward` TEXT" +
+                    "`uuid` TEXT," +
+                    "`cooldown` TEXT," +
                     ");";
 
 
 
-            s.executeUpdate(headsData);
+            s.executeUpdate(cooldowns);
 
             s.close();
         } catch (SQLException e) {
