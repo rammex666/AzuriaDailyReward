@@ -1,0 +1,8 @@
+name: AzuriaDailyReward
+version: '${project.version}'
+main: fr.rammex.azuriadailyreward.AzuriaDailyReward
+api-version: '1.20'
+commands:
+  dailyrewards:
+    description: Ouvre le menu des récompenses quotidiennes.
+    usage: /dailyreward

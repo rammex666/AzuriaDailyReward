@@ -1,0 +1,26 @@
+# messages.yml
+
+# Messages de commande
+command.onlyPlayers: "Seuls les joueurs peuvent utiliser cette commande."
+
+# Messages pour le slot 11 (wool)
+message.recoverReward: "§aRécupèrer votre récompense !"
+message.alreadyClaimed: "§cVous avez déjà récuprer votre récompense !"
+
+gui.title: "§6Daily Rewards"
+# Message pour le slot 15 (head) avec placeholders pour le temps restant
+gui.timeRemaining: "§bRevenez dans : §a{hours}§bh §a{minutes}§bm §a{seconds}§bs"
+# Message pour le slot 16 (barrier)
+gui.closeMenu: "§cFermer le Menu"
+
+# Messages divers
+message.waitTime: "§b[DailyRewads] §bVous devez attendre encore §a{remainingSeconds}§b secondes pour récupérer votre récompense."
+message.noRewardConfigured: "§b[DailyRewads] §cAucune récompense n'est configurée."
+message.rewardNotExist: "§b[DailyRewads] §cLa récompense configurée (§a{itemName}§c) n'existe pas."
+message.receivedReward: "§b[DailyRewads] §aVous avez reçu : §b{rewardMaterial}"
+message.receivedRewardCommands: "§b[DailyRewads] §aVous avez reçu une récompense !"
+message.receivedRewardCombined: "§b[DailyRewads] §aVous avez reçu plusieurs récompenses !"
+message.rewardError: "§b[DailyRewads] §cErreur lors de la distribution de la récompense."
+message.dbError: "§b[DailyRewads] §cErreur lors de la gestion de la base de données."
+message.waitTimeFormatted: "§b[DailyRewads] §cVous devez attendre encore {hours}h {minutes}m {seconds}s avant de recevoir une récompense."
+message.helpMessage: "§m§l§e---------- §bDailyRewards §m§l§e----------\n\n§6Utilise la commande : §a/dailyrewards\n§6Vous pouvez récupérer une récompense tous les {hours}h {minutes}m {seconds}s.\n\n§m§l§e---------- §bDailyRewards §m§l§e----------"

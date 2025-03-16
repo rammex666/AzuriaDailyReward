@@ -1,0 +1,15 @@
+# Délai de récompense en secondes (86400 secondes = 24h) (3600 secondes = 1h) (120 secondes = 2 minutes)
+reward-delay: 86400
+
+# Liste des récompenses avec leur chance en pourcentage
+rewards:
+  - item: DIAMOND
+    amount: 1
+    chance: 20
+  - item: GOLD_INGOT
+    amount: 12
+    chance: 30
+  - item: IRON_INGOT
+    amount: 5
+    commands: eco give {player} 500
+    chance: 50
